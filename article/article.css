@@ -1,0 +1,81 @@
+:root {
+    --main-color: #212529;
+}
+
+/* 左邊側欄開始 */
+.account {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: var(--main-color);
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+
+.fa-user-circle {
+    font-size: 4rem;
+}
+
+/* 左邊側欄結束 */
+/* 右邊側欄開始 */
+
+.addbtn {
+    width: 200px;
+    margin-left: .5rem;
+}
+.imgwrap{
+    width: 220px;
+    height: 170px;
+    overflow: hidden;
+}
+.imgwrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#example tbody td div{
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+/* 右邊側欄結束 */
+/* 下列表開始 */
+.midbtn {
+    margin-bottom: 1rem;
+}
+
+/* .articleEdit {
+    display: none;
+}
+
+.articleEdit.open {
+    display: block;
+} */
+
+.uploadPic {
+    width: 200px;
+}
+
+.uploadPic img {
+    width: 100%;
+    margin: 0 0.5rem;
+}
+
+
+/* 下列表結束 */
+/* 新增開始 */
+
+/* 新增結束 */
+/* 查看彈出視窗開始 */
+
+
+/* 查看彈出視窗結束 */
